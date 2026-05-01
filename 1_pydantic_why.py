@@ -5,7 +5,7 @@ class Patient(BaseModel):
 
     name: Annotated[str, Field(max_length=50, min_length=2, title="Name of the patient", description="Provides the name of the patient in less than 50 characters and more than 2 characters", examples=["John Doe", "Jane Smith"])] 
     age: int = Field(gt=0, lt=120) # greater than 0 and less than 120
-    weight: Annotated[float, Field(gt=0, strict=True)] # greater than 0
+    weight: Annotated[float, Field(gt=0, strict=True)] # greater than 0, prevent type coercion using strict parameter
     married: Annotated[bool, Field(default=False, title="Marital Status", description="Is the patient married or not")] # default value
     allergies: Annotated[Optional[List[str]], Field(default=None, max_length=5)]  # two way validation
     email: EmailStr

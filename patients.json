@@ -1,6 +1,1 @@
-{"P001": {"name": "AAA", "age": 24, "gender": "Male", "height": 1.65, "weight": 90.0},
-"P002": {"name": "BBB", "age": 22, "gender": "Female", "height": 1.4, "weight": 56.0},
-"P003": {"name": "CCC", "age": 30, "gender": "Male", "height": 1.8, "weight": 80.0},
-"P004": {"name": "DDD", "age": 28, "gender": "Female", "height": 1.6, "weight": 60.0},
-"P005": {"name": "EEE", "age": 35, "gender": "Male", "height": 1.75, "weight": 85.0}
-}
+{"P001": {"name": "AAA", "age": 24, "gender": "Male", "city": "Surat", "height": 1.65, "weight": 90.0, "bmi": 33.06, "verdict": "Obese"}, "P002": {"name": "BBB", "age": 22, "gender": "Female", "city": "Ahmedabad", "height": 1.4, "weight": 56.0, "bmi": 22.96, "verdict": "Normal"}, "P003": {"name": "CCC", "age": 30, "gender": "Male", "city": "Vadodara", "height": 1.8, "weight": 80.0, "bmi": 24.69, "verdict": "Normal"}, "P004": {"name": "DDD", "age": 28, "gender": "Female", "city": "Rajkot", "height": 1.6, "weight": 60.0, "bmi": 23.44, "verdict": "Normal"}, "P005": {"name": "EEE", "age": 35, "gender": "Male", "city": "Gandhinagar", "height": 1.75, "weight": 85.0, "bmi": 27.76, "verdict": "Overweight"}, "P006": {"name": "FFF", "age": 24, "gender": "Female", "city": "Girnar", "height": 1.74, "weight": 92.0, "bmi": 30.39, "verdict": "Obese"}}
